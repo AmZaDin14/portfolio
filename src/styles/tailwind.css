@@ -1,6 +1,9 @@
 @tailwind base;
 
 /* Your own custom base styles */
+.active {
+    @apply text-gray-200 border-b-2 border-gray-200
+}
 
 /* Start purging... */
 @tailwind components;
